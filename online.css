@@ -1,0 +1,461 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: rgb(65 91 67);;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.navlogo{
+    height: 50px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.logo{
+    background-image: url(logo.png);
+    height: 60px;
+    width: 110px;
+    background-size: cover;
+}
+/** transparnt border ke liye **/
+
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover {
+    border: 1.5px solid white;
+}
+
+/** box**/
+
+.add-first{
+    color: #e0dede;
+    font-size: 10px;
+
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+    
+}
+.add-second{
+    margin-left: 8px;
+    font-size: 7px;
+}
+
+/**  search box 3**/
+
+.nav-search{
+    display: flex;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+
+}
+
+.search-selcte{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius:4px ;
+    border: none;
+
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+
+}
+
+.secarch-icon{
+    width: 45px;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(0, 255, 221);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius:4px ;
+    background-color: black;
+}
+/** box 4 **/
+
+span{
+    font-size: 0.7rem;
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight:700;
+
+}
+
+.nav-search:hover{
+    border: 2px solid pink;
+ 
+}
+
+/*box 6  */
+.nav-cart i {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/** panel*/
+.panel{
+    height: 40px;
+    background-color: rgb(46 67 55);;
+    display: flex;
+   color: white;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+.panel-options p {
+    display: inline;
+    margin-left: 15px;
+}
+
+
+.nav-singin{
+    width: 80%;
+
+}
+
+.panel-deal{
+    font-weight: 700;
+}
+
+/* hero-section */
+.hero-section{
+    background-image: url(image1.webp);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    box-shadow:0px 0px 3px gray ;
+    animation: changeImage 20s linear infinite ;
+}
+
+@keyframes changeImage {
+    0%{
+        background-image: url(image1.webp);
+    }
+    25%{
+        background-image: url(image2.webp);
+    }
+    50%{
+        background-image: url(image3.webp);
+    }
+    75%{
+        background-image: url(image4.webp);
+    }
+    100%{
+        background-image: url(image1.webp);
+    }
+}
+
+
+
+
+
+/* shop section */
+
+.shop-sectuion{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f3f3f3;
+}
+
+
+.navaddres{
+    height: 38px;
+}
+
+
+.box{
+   
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px ;
+    margin-top: 15px;
+    transition: 1s;
+}
+
+.ho:hover{
+    transform: scale(1.1);
+    
+    
+}
+
+.box-image1{
+    height: 302px;
+    width: 201px;
+    margin-left: 80px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-image: url(shirt.webp);
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content{
+
+    color: black;
+
+}
+
+.box-image2{
+    height:300px ;
+    width: 280px;
+    margin-left: 55px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-image: url(T-shirt.webp);
+}
+.box-image3{
+    height:300px ;
+    width: 280px;
+    margin-left: 55px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-image: url(Formal\ Shirts.webp);
+}
+.box-image4{
+    height:300px ;
+    background-size: cover;
+    width: 280px;
+    margin-left: 57px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-image: url(Jeans.webp);
+}
+
+/* shop section 2*/
+
+.box-image9{
+    height:300px ;
+    width: 280px;
+    margin-left: 55px;
+    background-size: cover;
+    background-image: url(kurta.webp);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-image10{
+    height:300px ;
+    width: 280px;
+    margin-left: 55px;;
+    background-size: cover;
+    background-image: url(Sweatshirts.webp);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-image11{
+    height:300px ;
+    width: 280px;
+    margin-left: 55px;
+    background-size: cover;
+    background-image: url(Trousers.webp);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-image12{
+    height:300px ;
+    width: 280px;
+    margin-left: 55px;
+    background-size: cover;
+    background-image: url(Jackets.webp);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+/* shop section 4 */
+
+.shop-section4{
+
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f3f3f3;
+
+}
+.box4{
+    height: 200px;
+    width: 15%;
+    background-color: white;
+    padding: 20px 0px 15px ;
+    margin-top: 15px;
+}
+
+.box-image13{
+    height: 150px;
+    width: 125px;
+    margin-left: 68px;
+    background-size: cover;
+    background-image: url(Backpack.webp);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-image14{
+    
+    height: 74px;
+    width: 150px;
+    margin-left: 38px;
+    background-size: cover;
+    background-image: url(sunglases.webp);
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.box-image15{
+    height: 150px;
+    width: 150px;
+    margin-left: 48px;
+    background-size: cover;
+    background-image: url(Casual\ Shoes.webp);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-image16{
+    height: 150px;
+    width: 35px;
+    margin-left: 103px;
+    background-size: cover;
+    background-image: url(Trimmers.webp);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-image17{
+    height: 161px;
+    width: 120px;
+    margin-left: 58px;
+    background-size: cover;
+    background-image: url(watch.webp);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-image18{
+    height: 150px;
+    width: 80px;
+    margin-left: 68px;
+    background-size: cover;
+    background-image: url(Three\ Fourths.webp);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* shop section 4 */
+
+.shop-section5{
+
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f3f3f3;
+
+}
+
+.box5{
+    height: 200px;
+    width: 15%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 25px;
+}
+
+.box-image19{
+    height: 86px;
+    width: 150px;
+    margin-left: 38px;
+    background-size: cover;
+    background-image: url(Dhoti.webp);
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.box-image20{
+    height: 150px;
+    width: 100px;
+    margin-left: 63px;
+    background-size: cover;
+    background-image: url(Flip\ Flops.webp);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-image21{
+    height: 150px;
+    width: 158px;
+    margin-left: 50px;
+    background-size: cover;
+    background-image: url(Bracelet.webp);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-image22{
+    height: 150px;
+    width: 148px;
+    margin-left: 50px;
+    background-size: cover;
+    background-image: url(perfume.webp);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-image23{
+    height: 150px;
+    height: 152px;
+    width: 122px;
+    margin-left: 53px;
+    background-size: cover;
+    background-image: url(Wallet.webp);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-image24{
+    height: 150px;
+    width: 126px;
+    margin-left: 49px;
+    background-size: cover;
+    background-image: url(Track\ Suit.webp);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* footer section */
+
+footer{
+    background-color:black;
+    color: white;
+    text-align:center;
+    
+}
+
+
